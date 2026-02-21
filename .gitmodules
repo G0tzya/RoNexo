@@ -1,0 +1,6 @@
+[submodule "RoNexo_Server"]
+	path = RoNexo_Server
+	url = https://github.com/G0tzya/RoNexo_Server.git
+[submodule "RoNexo_Extention"]
+	path = RoNexo_Extention
+	url = https://github.com/G0tzya/RoNexo_Extention.git
