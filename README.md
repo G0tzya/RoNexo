@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="RoNexo_Extention/icons/Promo_tile_Marque.png" alt="RoNexo" width="auto">
+  <img src="https://raw.githubusercontent.com/G0tzya/RoNexo_Extention/main/icons/Promo_tile_Marque.png" alt="RoNexo" width="auto">
 </p>
 
 <p align="center">
@@ -44,16 +44,14 @@ Drag-and-drop player cards, global game search by Place ID, and elegant date-ran
 RoNexo is split into two components that work together seamlessly:
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Extension ["🧩 Chrome Extension"]
-        direction TB
         UI[Popup UI]
         PD[Player Details]
         CV[Chart.js Visuals]
     end
 
     subgraph Server ["⚙️ Companion Server"]
-        direction TB
         PP[Presence Polling]
         DA[Data Aggregation]
         DB[(SQLite)]
@@ -61,9 +59,9 @@ flowchart LR
 
     RAPI["🌐 Roblox APIs"]
 
-    Extension -- "REST API\n127.0.0.1:3000" --- Server
-    Extension -- "Thumbnails\nUsers & Friends" --- RAPI
-    Server -- "Presence &\nFriendship" --- RAPI
+    Extension -- "REST API · 127.0.0.1:3000" --- Server
+    Extension -- "Thumbnails · Users · Friends" --- RAPI
+    Server -- "Presence · Friendship" --- RAPI
 ```
 
 | Component | Directory | Tech |
