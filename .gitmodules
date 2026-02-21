@@ -4,3 +4,7 @@
 [submodule "RoNexo_Extention"]
 	path = RoNexo_Extention
 	url = https://github.com/G0tzya/RoNexo_Extention.git
+[submodule "extension"]
+	branch = main
+[submodule "server"]
+	branch = main
